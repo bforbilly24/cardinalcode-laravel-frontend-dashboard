@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
-  },
+    "build": "vite build",
+    "heroku-postbuild": "npm run build"
+},
   "author": {
     "name": "Halim Putra",
     "email": "halimputra0701@icloud.com",
