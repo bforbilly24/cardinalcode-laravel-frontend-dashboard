@@ -38,7 +38,36 @@ pnpm dev
 bun dev
 ```
 
-Open http://127.0.0.1:8000/ with your browser to see the result.
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) with your browser to see the result.
+
+## File & Folder Structure
+
+```bash
+├── docs
+└── Konrix
+│   ├── app
+│   ├── bootstrap
+│   ├── config
+│   ├── database
+│   ├── public
+│   ├── resources/
+│   │   └── data
+│   │   └── fonts
+│   │   └── images
+│   │   └── js
+│   │   └── lang
+│   │   └── scss
+│   │   └── views
+│   │       └── layout
+│   │       └── multiple folders having all pages, apps, etc
+│   ├── routes
+│   ├── storage
+│   ├── tests
+│   └── bun.lock
+│   ├── composer.json - Laravel php dependencies
+│   ├── vite.config.js - Vite configuration File
+│   ├── package.json
+```
 
 ## Preview
 
